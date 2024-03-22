@@ -2,7 +2,7 @@
 import React from 'react';
 import mainImg from '../../asset/dinero-min.png';
 //import { CustomModal } from '../Modal/Modal';
-import './modal.css';
+//import './modal.css';
 import './style.css';
 import './mobile.css'
 

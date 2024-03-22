@@ -1,0 +1,33 @@
+/* Bannner  */
+.verctor-Line {
+    width: 20%;
+    margin-left: 80%;
+ 
+ }
+ 
+ .banner-Container{
+     background: green;
+     color: aliceblue;
+     text-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.774);
+     width: auto;
+     padding: 40px;
+     margin: 70px;
+     border-radius: 12px;
+     font-size: 20px;
+     text-align: center;
+     font-weight: bold;
+     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.363);
+ 
+     animation: animacionAparicionIzquierda 1s ease-out;
+ }
+ @keyframes animacionAparicionIzquierda {
+     0% {
+         opacity: 0;
+         transform: translateX(-50px);
+     }
+     100% {
+         opacity: 1;
+         transform: translateX(0);
+     }
+ }
+ 

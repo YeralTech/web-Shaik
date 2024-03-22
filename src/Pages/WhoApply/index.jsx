@@ -8,7 +8,7 @@ import jubilados from '../../asset//jubilados-min.png';
 import independientesImg from '../../asset/asesorando-min.png';
 import acpImg from '../../asset/acp-min.png'
 import PymeImg from '../../asset/microempresarios.png';
-import '../../components/WhoApply-Card/syle.css';
+import '../../components/WhoApplyCard/style.css';
 import './style.css'
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import './syle.css'
+import './style.css'
 
 
 const ServiceCard = ({ typeCompany, content, img, requisitos }) => {
