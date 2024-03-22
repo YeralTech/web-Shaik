@@ -15,7 +15,7 @@ import './App.css';
  * Utiliza React Router para manejar la navegación entre las distintas páginas.
  * ```
  */
-function App() {
+function App () {
   return (
     <Router>
       {/* Barra de navegación */}
@@ -38,4 +38,4 @@ function App() {
   );
 }
 
-export default App;
+export {App};
