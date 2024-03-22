@@ -1,4 +1,4 @@
-
+import React from 'react'
 import vectorImg from '../../asset/vector.png'
 import './style.css'
 

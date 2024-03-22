@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";

@@ -33,7 +33,7 @@ const Main = () => {
         <div className="main-container-text">
           <h1 className="main-title">¿NECESITAS DINERO?</h1>
           <h2 className="main-subtitle-title">¡No tienes capacidad o tienes mala apc!</h2>
-          <p className="main-subtitle">No te preocupes por tu APC'</p>
+          <p className="main-subtitle">No te preocupes por tu APC</p>
           <h2 className="main-subtitle-title">¡Sin costo!</h2>
          {/* <button onClick={openModal} className="apply-Button">
             Descubre YA si Aplicas!
