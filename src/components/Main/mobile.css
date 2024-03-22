@@ -1,0 +1,282 @@
+
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 767px) {
+    /*main */
+ .main-secction {
+     width: 100%;
+     height: auto;
+  
+ }
+ 
+ .main-container{
+     width: auto;
+     height: 550px;
+     display: flex;
+     padding: 20px;
+     flex-direction: column;   
+     background: #003656;
+     align-items: center;
+ }
+ 
+  .main-container img {
+     max-width: 40%;
+     height: auto;
+ 
+     
+ }
+ 
+ .main-container-text{
+     text-align: center;
+ 
+     margin: 0;
+ 
+ }
+ 
+  .main-title {
+     font-size: 32px;
+     padding: 0;
+ 
+  
+ }
+ 
+  .main-subtitle-title {
+     color: #FED007;
+     font-size: 24px;
+     margin-top: 16px;
+     text-shadow: 0  2px 2px  rgb(46, 37, 0);
+ }
+ 
+  .main-subtitle {
+     color: #F9FAFB;
+     font-size: 24px;
+     margin-top: 16px;
+     margin-bottom: 24px;
+     text-shadow: 0  3px 4px  rgb(46, 37, 0);
+ }
+ 
+ 
+ .apply-Button {
+     width: 250px;
+     height: 56px;
+     background:#FED007;
+     color: var(--primary);
+     border-radius: 20px;
+     border-style: none;
+     font-size: 20px;
+     text-align: center;
+     box-shadow: 0px 4px 4px 0px rgba(146, 146, 146, 0.473);
+     cursor: pointer;
+ 
+ }
+ .apply-Button:hover {
+     background:#57910F;  
+     color: white;
+     box-shadow: 0px 4px 4px 0px rgba(117, 117, 117, 0.705);
+     
+ 
+ }
+ 
+ .arrow-icon-right,
+ .arrow-icon-left {
+     color: #d7f0ff;
+     width: auto;
+     height: 28px;
+     padding: 20px;
+ }
+ 
+ .arrow-icon-left {
+     padding-left: 24px;
+ }
+ .arrow-icon-right {
+     display: none;
+ }
+ 
+ 
+ 
+ 
+ #quote-button  {
+     width: 180px;
+     height: 48px;
+     background:#FED007;
+     color: var(--primary);
+     border-radius: 20px;
+     border-style: none;
+     font-size: 16px;
+     box-shadow: 0px 4px 4px 0px rgba(146, 146, 146, 0.473);
+ 
+ }
+ #quote-button:hover {
+     background:#d7f0ff;
+     color: #003656;
+     box-shadow: 0px 4px 4px 0px rgba(117, 117, 117, 0.705);
+     opacity: 1; /* Inicialmente establecida a 0 para la animación */
+     animation: slideInLeft 1s ease-in-out;
+ 
+ }
+ 
+ 
+ .arrow-icon-right,
+ .arrow-icon-left {
+     color: #d7f0ff;
+     width: auto;
+     height: 28px;
+     padding: 20px;
+ }
+ 
+ .arrow-icon-left {
+     padding-left: 80px;
+     color: #cedbe2;
+     align-items: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* Define un conjunto de reglas de animación usando @keyframes */
+ @keyframes slideInLeft {
+     from {
+         transform: translateX(-100%);
+         opacity: 0;
+     }
+     to {
+         transform: translateX(1);
+     }
+ }
+ 
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+    /*main */
+ .main-secction {
+     width: 100%;
+     height: auto;
+  
+ }
+ 
+ .main-container{
+     width: auto;
+     height: 380px;
+     display: flex;
+     padding: 20px;
+     flex-direction: row;   
+     background: #003656;
+     align-items: center;
+ }
+ 
+  .main-container img {
+     max-width: 35%;
+     height: auto;
+ 
+     
+ }
+ 
+ .main-container-text{
+     text-align: center;
+ 
+     margin: 0;
+ 
+ }
+ 
+  .main-title {
+     font-size: 32px;
+     padding: 0;
+ 
+  
+ }
+ 
+  .main-subtitle-title {
+     color: #FED007;
+     font-size: 24px;
+     margin-top: 16px;
+     text-shadow: 0  2px 2px  rgb(46, 37, 0);
+ }
+ 
+  .main-subtitle {
+     color: #F9FAFB;
+     font-size: 24px;
+     margin-top: 16px;
+     margin-bottom: 24px;
+     text-shadow: 0  3px 4px  rgb(46, 37, 0);
+ }
+ 
+ 
+ .apply-Button {
+     width: 250px;
+     height: 56px;
+     background:#FED007;
+     color: var(--primary);
+     border-radius: 20px;
+     border-style: none;
+     font-size: 20px;
+     text-align: center;
+     box-shadow: 0px 4px 4px 0px rgba(146, 146, 146, 0.473);
+     cursor: pointer;
+ 
+ }
+ .apply-Button:hover {
+     background:#57910F;  
+     color: white;
+     box-shadow: 0px 4px 4px 0px rgba(117, 117, 117, 0.705);
+     
+ 
+ }
+ 
+ .arrow-icon-right,
+ .arrow-icon-left {
+     color: #d7f0ff;
+     width: auto;
+     height: 28px;
+     padding: 20px;
+ }
+ 
+ .arrow-icon-left {
+     padding-left: 24px;
+ }
+ .arrow-icon-right {
+     display: none;
+ }
+ 
+ 
+ 
+ 
+ #quote-button  {
+     width: 180px;
+     height: 48px;
+     background:#FED007;
+     color: var(--primary);
+     border-radius: 20px;
+     border-style: none;
+     font-size: 16px;
+     box-shadow: 0px 4px 4px 0px rgba(146, 146, 146, 0.473);
+ 
+ }
+ #quote-button:hover {
+     background:#d7f0ff;
+     color: #003656;
+     box-shadow: 0px 4px 4px 0px rgba(117, 117, 117, 0.705);
+     opacity: 1; /* Inicialmente establecida a 0 para la animación */
+     animation: slideInLeft 1s ease-in-out;
+ 
+ }
+ 
+ 
+ .arrow-icon-right,
+ .arrow-icon-left {
+     color: #d7f0ff;
+     width: auto;
+     height: 28px;
+     padding: 20px;
+ }
+ 
+ .arrow-icon-left {
+     padding-left: 80px;
+     color: #cedbe2;
+     align-items: center;
+ }
+ 
+ 
+ 
+   }
+   

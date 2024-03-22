@@ -1,0 +1,147 @@
+/* Estilos para la barra de navegación */
+.navBar {
+    width: auto;
+    height: 100px;
+    margin-top: 20px;
+    padding-top: 12px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Estilos para el contenedor de la barra de navegación */
+  .navBar-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 46px;
+    padding-right: 36px;
+  }
+  
+  /* Estilos para el logo en la barra de navegación */
+  .navBar-container img {
+    width: 15%;
+    margin-bottom: 16px;
+  }
+  
+  /* Estilos para la lista en la barra de navegación */
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    padding-left: 20%;
+    gap: 25px;
+    border-radius: 5px;
+    color: #003656;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los enlaces en la barra de navegación */
+  .navBar-container ul li a {
+    color: #003656;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Estilos para los enlaces activos en la barra de navegación */
+  .navBar-container ul li a.active:hover,
+  .navBar-container ul li a:active {
+    background: #003656;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .navBar-container ul li a.active:focus,
+  .navBar-container ul li a:active {
+    background: #003656;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  /* Estilos para el botón de contacto */
+  .contact-button {
+    font-weight: 600;
+      background:#FED007 ;
+      color: #003656;
+    height: 48px;
+    width: 136px;
+    border-radius: 16px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 2px 3px 2px  #003656c2;
+  }
+  .contact-button:hover {
+    background: green ;
+    color: #ffffff;
+    box-shadow: 2px 3px 2px  #100d00b4;
+  }
+  /* Estilos para el icono de menú en pantallas pequeñas */
+  .icon {
+    display: none;
+  }
+  
+  /* Medidas para pantallas pequeñas */
+  @media screen and (max-width: 767px) {
+    .navBar {
+        width: auto;
+        padding: 8px;
+    }
+  
+    .navBar-container img {
+        width: 35%;
+        margin-bottom: 16px;
+    }
+  
+    .navBar-container ul li a {
+        display: none;
+    }
+  
+    button {
+        display: none;
+    }
+  
+    .icon {
+        display: inline-block;
+        color: #003656;
+        height: 32px;
+        width: 32px;
+    }
+  }
+  
+  /* Medidas para pantallas pequeñas */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .navBar {
+        width: auto;
+        padding: 8px;
+    }
+  
+    .navBar-container img {
+        width: 35%;
+        margin-bottom: 16px;
+    }
+  
+    .navBar-container ul li a {
+        display: none;
+    }
+  
+    button {
+        display: none;
+        background:#FED007 ;
+    }
+  
+    .icon {
+        display: inline-block;
+        color: #003656;
+        height: 32px;
+        width: 32px;
+    }
+  }
+  

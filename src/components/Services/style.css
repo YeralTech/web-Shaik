@@ -1,0 +1,79 @@
+
+/* Service Section */
+.service-Section{
+    height: 480px;
+    padding: 60px;
+    background-image: url(../../asset/vector-verde.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+ .service-Section h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #003656;
+   
+}
+
+.service-container {
+    width: 90%;
+    margin-bottom: 24px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+}
+
+.service,
+.service-green {
+
+    width: 280px;
+    height: auto;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+}
+
+.service {
+    background: #003656;;
+    color: #ffffff;
+}
+
+
+
+.service-p {
+    font-size: 16px;
+}
+.services-SubTitle {
+    text-align: center;
+    font-size: 18px;
+    color: #003656;
+}
+
+/* Medidas para pantallas pequeñas */
+@media screen and (max-width: 767px),(min-width: 768px) and (max-width: 991px){
+    
+/* Service Section */
+.service-Section{
+    height: auto;
+    padding: 0 40px 70px;
+       background-image: url(../../asset/vector-verde.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+.services-SubTitle {
+    text-align: center;
+   padding: 0 80px ;
+    font-size: 18px;
+    color: #003656;
+}
+}
