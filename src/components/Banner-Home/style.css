@@ -1,4 +1,49 @@
-/* Bannner  */
+    /* Bannner  */
+    .verctor-Line {
+        width: 20%;
+        margin-left: 80%;
+     
+     }
+     
+     .banner-Container{
+        width: auto;
+        padding: 70px;
+        border-radius: 12px; 
+        animation: animacionAparicionIzquierda 1s ease-out;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+          
+     }
+    
+    .textBanner-Container{
+        font-size: 18px;
+        background: green;
+        margin-right: 80px;
+        color: aliceblue;
+        border-radius: 12px;
+        padding: 44px;
+        width: 580%;
+        font-weight: 600;
+        
+    }
+     .banner-Container img {
+        width: 30%;
+        height: 40%;
+     }
+     @keyframes animacionAparicionIzquierda {
+         0% {
+             opacity: 0;
+             transform: translateX(-50px);
+         }
+         100% {
+             opacity: 1;
+             transform: translateX(0);
+         }
+     }
+     
+     @media screen and (max-width: 767px) {
+         /* Bannner  */
 .verctor-Line {
     width: 20%;
     margin-left: 80%;
@@ -6,19 +51,28 @@
  }
  
  .banner-Container{
-     background: green;
-     color: aliceblue;
-     text-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.774);
-     width: auto;
-     padding: 40px;
-     margin: 70px;
-     border-radius: 12px;
-     font-size: 20px;
-     text-align: center;
-     font-weight: bold;
-     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.363);
- 
-     animation: animacionAparicionIzquierda 1s ease-out;
+    width: auto;
+    border-radius: 12px; 
+    animation: animacionAparicionIzquierda 1s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+ }
+
+.textBanner-Container{
+    font-size: 18px;
+    background: green;
+    color: aliceblue;
+    border-radius: 12px;
+    padding: 44px;
+    width: auto;
+    font-weight: 600;
+    margin-right: 0px;
+    
+}
+ .banner-Container img {
+    width: 60%;
  }
  @keyframes animacionAparicionIzquierda {
      0% {
@@ -30,4 +84,49 @@
          transform: translateX(0);
      }
  }
+ }
+     
+
+ @media (max-width: 768px) and (max-width: 991px) { 
+    /* Bannner  */
+.verctor-Line {
+    width: 20%;
+    margin-left: 80%;
  
+ }
+ 
+ .banner-Container{
+    width: auto;
+    border-radius: 12px; 
+    animation: animacionAparicionIzquierda 1s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+ }
+
+.textBanner-Container{
+    font-size: 14px;
+    background: green;
+    color: aliceblue;
+    border-radius: 12px;
+    padding: 40px;
+    width: 80%;
+    font-weight: 600;
+    
+}
+ .banner-Container img {
+    width: 60%;
+ }
+ @keyframes animacionAparicionIzquierda {
+     0% {
+         opacity: 0;
+         transform: translateX(-50px);
+     }
+     100% {
+         opacity: 1;
+         transform: translateX(0);
+     }
+ }
+ }

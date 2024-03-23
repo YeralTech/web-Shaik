@@ -11,7 +11,7 @@
  
  .main-container{
      width: auto;
-     height: 550px;
+     height: auto;
      display: flex;
      padding: 20px;
      flex-direction: column;   
@@ -20,7 +20,7 @@
  }
  
   .main-container img {
-     max-width: 40%;
+     max-width: 50%;
      height: auto;
  
      
@@ -42,14 +42,14 @@
  
   .main-subtitle-title {
      color: #FED007;
-     font-size: 24px;
+     font-size: 18px;
      margin-top: 16px;
      text-shadow: 0  2px 2px  rgb(46, 37, 0);
  }
  
   .main-subtitle {
      color: #F9FAFB;
-     font-size: 24px;
+     font-size: 18px;
      margin-top: 16px;
      margin-bottom: 24px;
      text-shadow: 0  3px 4px  rgb(46, 37, 0);

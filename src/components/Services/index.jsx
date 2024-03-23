@@ -9,10 +9,9 @@ const Services = () => {
     const servicesData = [   
         { company: 'Préstamos Personales' }, 
         { company: 'Consolidación de cuentas' },
-        { company: 'Consolidación de cuentas' },
         { company: 'Préstamos con Garantia de Hipotecas' },
         { company: 'Préstamos para MicroEmpresarios' }, 
-        { company: 'Independientes' }
+
     ];
 
     return (
