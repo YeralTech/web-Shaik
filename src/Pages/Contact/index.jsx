@@ -22,13 +22,13 @@ const Contact = () => {
        <div className="contact-Text">
           <h1>Contacto</h1>
           <p>No dudes en contactarnos, escuchamos cada caso, nuestra atención es personalizada</p>
-            
+          <button className="contact-Button active" onClick={openContactForm}>
+            Solicita tu Cotización
+          </button>
       
       </div> 
       <img className="contact-Img" src={contactImg} alt="Ilustración de atención" /> 
-      <button className="contact-Button active" onClick={openContactForm}>
-            Solicita tu Cotización
-          </button>
+  
       </section>
     
   );

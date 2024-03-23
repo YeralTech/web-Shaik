@@ -19,7 +19,7 @@ const Nosotros = () => {
     
     <section className="about-Section">
       
-      <h1>QUIENES SOMOS</h1>
+      <h1 className="about-Title" >QUIENES SOMOS</h1>
       <h3>SOMOS LA SOLUCIÓN A TUS PROBLEMAS</h3>
 
       {/* Sección Quienes Somos */}

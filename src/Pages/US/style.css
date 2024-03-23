@@ -6,13 +6,12 @@
   }
   h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 10px;
     font-weight: bold;
     text-align: center;
     margin: 0;
     padding-top: 70px;
-  
-  
+
     
   }
   
@@ -118,3 +117,256 @@
     filter: drop-shadow(5px 5px 5px rgba(0, 45, 89, 0.831));
   }
   
+
+  @media screen and (max-width: 767px) {
+   
+ /* Estilos para encabezados */
+.about-Section {
+  background: #003656;
+  color: #fff;
+  margin: 0;
+  
+}
+h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding-top: 70px;
+
+
+  
+}
+
+h3 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: 16px;
+  font-style: italic;
+  margin-bottom: 48px;
+}
+
+/* Estilos para contenedores de información */
+.about-container,
+.vision-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #003656;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.mision-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #003656;
+  color: #fff;
+  padding: 40px;
+  font-size: 16px;
+}
+
+/* Estilos para títulos y columnas */
+.about-title {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.left-column {
+  flex: 1;
+  padding: 40px;
+}
+
+.right-column {
+  flex: 1;
+  text-align: center;
+  margin-left: 60px;
+  align-items: center;
+}
+
+/* Estilos para texto en los contenedores */
+.about-container span,
+.mision-container span {
+  font-size: 16px;
+  padding-top: 60px;
+  padding-bottom: 16px;
+
+
+}
+
+.mision-right-column {
+  width: 80%;
+  text-align: justify;
+}
+
+/* Estilos para imágenes */
+.about-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.shoot-Icon {
+  width: 70%;
+  height: auto;
+  align-items: center;
+  gap: 40px;
+  filter: drop-shadow(5px 5px 5px rgba(244, 244, 244, 0.831));
+}
+
+/* Estilos adicionales para la sección de visión */
+.vision-container {
+  height: auto;
+}
+
+.vision-left-column,
+.vision-right-column {
+  flex: 1;
+  padding: 24px;
+}
+
+.rocket-Icon {
+  width: 40%;
+  height: auto;
+  align-items: center;
+  filter: drop-shadow(5px 5px 5px rgba(0, 45, 89, 0.831));
+}
+
+ 
+
+ 
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para encabezados */
+.about-Section {
+  background: #003656;
+  color: #fff;
+  margin: 0;
+}
+h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding-top: 70px;
+
+
+  
+}
+
+h3 {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  margin: 16px;
+  font-style: italic;
+  margin-bottom: 48px;
+}
+
+/* Estilos para contenedores de información */
+.about-container,
+.vision-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #003656;
+  padding: 80px;
+  font-size: 20px;
+}
+
+.mision-container {
+  width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #003656;
+  color: #fff;
+  padding: 80px;
+  font-size: 20px;
+}
+
+/* Estilos para títulos y columnas */
+.about-title {
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+
+.left-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-column {
+  flex: 1;
+  text-align: center;
+  margin-left: 60px;
+  align-items: center;
+}
+
+/* Estilos para texto en los contenedores */
+.about-container span,
+.mision-container span {
+  font-size: 16px;
+  padding-top: 40px;
+
+
+}
+
+.mision-right-column {
+  width: 80%;
+  text-align: justify;
+}
+
+/* Estilos para imágenes */
+.about-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.shoot-Icon {
+  width: 70%;
+  height: auto;
+  align-items: center;
+  margin-right: 40px;
+  gap: 40px;
+  filter: drop-shadow(5px 5px 5px rgba(244, 244, 244, 0.831));
+}
+
+/* Estilos adicionales para la sección de visión */
+.vision-container {
+  height: 350px;
+}
+
+.vision-left-column,
+.vision-right-column {
+  flex: 1;
+  padding: 24px;
+}
+
+.rocket-Icon {
+  width: 40%;
+  height: auto;
+  align-items: center;
+  filter: drop-shadow(5px 5px 5px rgba(0, 45, 89, 0.831));
+}
+
+ }
