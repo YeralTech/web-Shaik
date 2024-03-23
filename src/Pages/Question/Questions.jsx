@@ -59,7 +59,7 @@ const Questions = () => {
               ))}
             
           </div>
-          <img src={questionImg} alt="Icono de empresa privada" />
+          <img className="questionImg" src={questionImg} alt="Icono de empresa privada" />
         </section>
        </>
     );
