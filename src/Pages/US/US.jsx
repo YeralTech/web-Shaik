@@ -2,34 +2,24 @@ import React from "react";
 import asesoreImg from '../../asset/happy-diverse-business-partners-closing-deal-min.jpg';
 import shootIcon from '../../asset/shoot.png';
 import rocketIcon from '../../asset/Rocket.png';
-
 import './style.css';
+import './mobile.css'
 
 /**
  * Componente que representa la sección "Nosotros".
- * Muestra información sobre la empresa, su misión y visión.
- * 
- * Uso:
- * ```jsx
- * <Nosotros />
- * ```
- */
+ * Muestra información sobre la empresa, su misión y visión.*/
+
 const Nosotros = () => {
   return (
-    
     <section className="about-Section">
-      
-      <h1 className="about-Title" >QUIENES SOMOS</h1>
+      <h1 className="Title" >QUIENES SOMOS</h1>
       <h3>SOMOS LA SOLUCIÓN A TUS PROBLEMAS</h3>
 
       {/* Sección Quienes Somos */}
       <div className="about-container">
-        
         <div className="left-column">
-          
-          <strong className="about-title">Quienes Somos</strong>
-          <br />
-          <span>
+          <strong className="about-title">Quienes Somos</strong><br />
+          <span className="about-text">
             Colaboramos con todas las instituciones crediticias para ayudarte a
             mejorar tu historial crediticio, obtener tu primer crédito y acceder a
             préstamos con garantías hipotecarias. Confía en nosotros para tus
@@ -52,7 +42,7 @@ const Nosotros = () => {
         <div className="mision-right-column">
           <strong className="about-title">Misión</strong>
           <br />
-          <span>
+          <span className="about-text">
             Nos dedicamos apasionadamente a servir a nuestros clientes con
             excelencia, priorizando la satisfacción de sus necesidades y la
             resolución de sus desafíos financieros. Lo hacemos con un compromiso
@@ -67,7 +57,7 @@ const Nosotros = () => {
         <div className="vision-left-column">
           <strong className="about-title">Visión</strong>
           <br />
-          <span>
+          <span className="about-text-right">
             Ser la empresa líder preferida por los clientes y familias que buscan
             lograr estabilidad financiera y alcanzar sus sueños económicos.
             Nos esforzamos por ser reconocidos como líderes en asesoramiento
