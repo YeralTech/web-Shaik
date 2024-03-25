@@ -2,10 +2,10 @@
 /* Service Section */
 .service-Section{
     height: auto;
-    padding: 40px;
+    padding: 45px;
     background-image: url(../../asset/vector-verde.png);
     background-repeat: no-repeat;
-    background-size: 70px;
+    background-size: 40px;
 }
  .service-Section h1 {
     font-size: 32px;
@@ -15,7 +15,7 @@
 }
 
 .service-container {
-    width: 80%;
+    width:auto;
 
     padding: 6px;
     display: flex;
@@ -29,7 +29,7 @@
 .service,
 .service-green {
 
-    width: auto;
+    width: 250px;
     height: auto;
     padding: 10px;
     display: flex;

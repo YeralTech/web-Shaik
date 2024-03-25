@@ -2,8 +2,10 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
 import './style.css';
 import './mobile.css'
+
 /**
  * Componente que representa el pie de página de la aplicación.
  * Incluye enlaces a redes sociales y una atribución del creador.
@@ -20,6 +22,11 @@ const Footer = () => {
      window.open(mailUrl, '_blank')
       }
 
+      const contactDeveloper = () => {
+        const openContactFormUrl = 'https://forms.gle/GYDmvcvjNBn17rC69'
+
+        window.open(openContactFormUrl, '_blank')
+      }
 
   return ( 
   
@@ -37,7 +44,7 @@ const Footer = () => {
             <p className="socialMedia-Title">Síguenos en redes sociales</p>
           </div> 
        
-          <p className="sign">Hecho por @YeraldinShaik 2024 <br></br> Panamá, Ciudad de Panamá </p>    
+          <p  className="sign">Sitio Web desarrollado por <p onClick={contactDeveloper}>@YeraldinEspinosa</p>  </p>    
       </footer>
 
 
