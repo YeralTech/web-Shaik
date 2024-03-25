@@ -3,7 +3,7 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import './style.css';
-
+import './mobile.css'
 /**
  * Componente que representa el pie de página de la aplicación.
  * Incluye enlaces a redes sociales y una atribución del creador.
