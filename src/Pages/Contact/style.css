@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 992px) {
     /* Estilos para el formulario de contacto */
     .Contact-Form {
         width: auto;
@@ -63,7 +63,7 @@
        
         
     }
-    
+}
 
     
 @media screen and (max-width: 767px) {
@@ -131,11 +131,9 @@
     /* Estilos para la imagen en el formulario */
     .contact-Img{
         height: 80%;
-        width: 80%;
-       
-        
+        width: 80%;         
 }
-
+}
 @media (min-width: 768px) and (max-width: 991px) {
       /* Estilos para el formulario de contacto */
       .Contact-Form {

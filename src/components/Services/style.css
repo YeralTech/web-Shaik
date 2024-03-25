@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 992px) {
 /* Service Section */
 .service-Section{
     height: 480px;
@@ -58,7 +58,7 @@
     font-size: 18px;
     color: #003656;
 }
-
+}
 /* Medidas para pantallas pequeñas */
 @media screen and (max-width: 767px),(min-width: 768px) and (max-width: 991px){
     

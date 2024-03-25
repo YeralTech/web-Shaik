@@ -1,3 +1,4 @@
+@media only screen and (min-width: 992px) {
 /* Estilos para encabezados */
 .about-Section {
     background: #003656;
@@ -116,7 +117,7 @@ h1{
     filter: drop-shadow(5px 5px 5px rgba(0, 45, 89, 0.831));
   }
   
-
+}
   @media screen and (max-width: 767px) {
    
  /* Estilos para encabezados */
@@ -240,13 +241,11 @@ h3 {
   align-items: center;
   filter: drop-shadow(5px 5px 5px rgba(0, 45, 89, 0.831));
 }
-
- 
-
- 
  }
  
- @media (min-width: 768px) and (max-width: 991px) {
+
+ 
+@media (min-width: 768px) and (max-width: 991px) {
   /* Estilos para encabezados */
 .about-Section {
   background: #003656;
