@@ -73,6 +73,7 @@
 }
  .banner-Container img {
     width: 60%;
+    height: 40%;
  }
  @keyframes animacionAparicionIzquierda {
      0% {
@@ -87,7 +88,8 @@
  }
      
 
- @media (max-width: 768px) and (max-width: 991px) { 
+  /* Medidas para pantallas pequeñas */
+  @media screen and (min-width: 768px) and (max-width: 991px) { 
     /* Bannner  */
 .verctor-Line {
     width: 20%;
@@ -118,6 +120,7 @@
 }
  .banner-Container img {
     width: 60%;
+    height: 40%;
  }
  @keyframes animacionAparicionIzquierda {
      0% {
