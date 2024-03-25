@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css'
+import './mobile.css'
 
 
 const ServiceCard = ({ typeCompany, content, img, requisitos }) => {

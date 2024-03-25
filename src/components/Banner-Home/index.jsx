@@ -2,6 +2,7 @@ import React from 'react'
 import vectorImg from '../../asset/vector.png'
 import asesorImg from '../../asset/atencion-min.png'
 import './style.css'
+import './mobile.css'
 
 const Banner = () => {
     return(

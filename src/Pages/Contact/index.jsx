@@ -1,6 +1,7 @@
 import React from "react";
 import contactImg from '../../asset/Atenncion al cliente-min.png';
 import './style.css';
+import './mobile.css'
 
 /**
  * Componente que representa la sección de contacto.
@@ -22,7 +23,7 @@ const Contact = () => {
        <div className="contact-Text">
           <h1>Contacto</h1>
           <p>No dudes en contactarnos, escuchamos cada caso, nuestra atención es personalizada</p>
-          <button className="contact-Button active" onClick={openContactForm}>
+          <button className="contact-button-form " onClick={openContactForm}>
             Solicita tu Cotización
           </button>
       

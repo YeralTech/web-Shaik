@@ -3,6 +3,7 @@ import asesoreImg from '../../asset/happy-diverse-business-partners-closing-deal
 import shootIcon from '../../asset/shoot.png';
 import rocketIcon from '../../asset/Rocket.png';
 import './style.css';
+import './mobile.css'
 
 /**
  * Componente que representa la sección "Nosotros".

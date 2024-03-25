@@ -1,7 +1,6 @@
 import React from "react";
-
-
 import './style.css'
+import './mobile.css'
 
 
 // Componente que muestra las categorías de personas que pueden aplicar.

@@ -1,1 +1,19 @@
+:root {
+  --color01: #003656;
+  --color02: #074D77;
+  --color03: #FED007;
+  --white: #F9FAFB;
+  --gray: #D9D9D9;
+  --green: #57910F;
 
+  /* <uniquifier>: Use a uniquifier for the class name*/
+/* <weight>: Use a value from 100 to 900*/
+
+--montserrat-font:  "Montserrat", sans-serif;
+
+}
+
+html {
+  font-family: var(--montserrat-font);
+  
+}

@@ -20,9 +20,23 @@
     }
     .whoApply-Text {
         width: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        font-size: 16px;
+        color: #003656;
+    } 
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+    .whoApply-Title {
+        font-size: 32px;
+        color: #003656;
+    }
+    .whoApply-Text {
+        width: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
         font-size: 16px;
         color: #003656;
     } 

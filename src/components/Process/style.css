@@ -21,8 +21,8 @@
     .apply-card {
         background: #003656;
         color: white;
-        width: 70%;
-        height: 250px;
+        width: auto;
+        height: auto;
         padding: 20px;
         border-radius: 16px;
         box-shadow: 0px 4px 4px 0px rgba(7, 7, 7, 0.63);
@@ -67,7 +67,7 @@
     .apply-container {
         width: auto;
         height: auto;
-        padding:  0 70px;
+        padding:  40px;
         margin: 24px;
         display: flex;
         flex-direction: column;
@@ -86,13 +86,11 @@
     .apply-card {
         background: #003656;
         color: white;
-        width: 80%;
-        height: auto;
+        width: 70%;
+        height: 250px;
         padding: 20px;
         border-radius: 16px;
         box-shadow: 0px 4px 4px 0px rgba(7, 7, 7, 0.63);
-       
-    }
     
     .apply-card:hover {
         transform: translateY(-15px) scale(1.2);
