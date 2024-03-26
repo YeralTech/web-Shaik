@@ -1,36 +1,35 @@
 @media only screen and (min-width: 992px)   {
   /* Bannner  */
-    .verctor-Line {
-        width: 20%;
-        margin-left: 80%;
-     
-     }
+
      
      .banner-Container{
         width: auto;
-        padding: 70px;
-        border-radius: 12px; 
+        height: auto;
+        background: #003656 ;
+        padding: 80px;
         animation: animacionAparicionIzquierda 1s ease-out;
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
           
      }
     
     .textBanner-Container{
-        font-size: 18px;
-        background: green;
+        font-size: 20px;
+        background: rgb(255, 255, 186);
         margin-right: 80px;
-        color: aliceblue;
+        color:  #003656;
         border-radius: 12px;
-        padding: 44px;
-        width: 580%;
+        padding: 24px;
+        width: auto;
+        height: auto;
         font-weight: 600;
         
     }
-     .banner-Container img {
-        width: 30%;
-        height: 40%;
+     .banner-img {
+        width: 20%;
+        height: 20%;
      }
      @keyframes animacionAparicionIzquierda {
          0% {

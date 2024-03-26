@@ -4,7 +4,7 @@
     .apply-container {
         width: auto;
         height: 250px;
-        padding: 70px;
+        padding: 80px;
         margin: 24px;
         display: flex;
         flex-direction: row;
@@ -87,11 +87,11 @@
         background: #003656;
         color: white;
         width: 70%;
-        height: 250px;
+        height: auto;
         padding: 20px;
         border-radius: 16px;
         box-shadow: 0px 4px 4px 0px rgba(7, 7, 7, 0.63);
-    
+    }
     .apply-card:hover {
         transform: translateY(-15px) scale(1.2);
         transition: transform 0.3s ease-in-out;
@@ -127,4 +127,3 @@
     }
     
     }
-}

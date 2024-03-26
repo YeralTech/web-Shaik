@@ -39,28 +39,7 @@
        font-size: 12px;
        width: auto;
    }
-   /* Estilos para el botón de contacto */
-   .contact-button-form {
-     
-       width: 100px;
-       height: 32px;
-       font-size: 12px;
-       font-weight: 600;
-       background:#FED007 ;
-       color: #003656;
-       margin-top: 20px;
-       border: none;
-       border-radius: 8px;
-       box-shadow: 2px 3px 2px  #100d00b4;
-       cursor: pointer; /* Hace que el cursor cambie a una mano al pasar sobre el botón */
-       transition: background 0.3s, color 0.3s; /* Agrega una transición suave al cambio de color */
-   }
-   
-   .contact-button-form:hover {
-       background: green ;
-       color: #ffffff;
-       box-shadow: 2px 3px 2px  #100d00b4;
-   }
+  
    
    /* Estilos para la imagen en el formulario */
    .contact-Img{
@@ -107,29 +86,7 @@
         font-size: 12px;
         width: auto;
     }
-    /* Estilos para el botón de contacto */
-    .contact-button-form {
-      
-        width: 100px;
-        height: 32px;
-        font-size: 12px;
-        font-weight: 600;
-        background:#FED007 ;
-        color: #003656;
-        margin-top: 20px;
-        border: none;
-        border-radius: 8px;
-        box-shadow: 2px 3px 2px  #100d00b4;
-        cursor: pointer; /* Hace que el cursor cambie a una mano al pasar sobre el botón */
-        transition: background 0.3s, color 0.3s; /* Agrega una transición suave al cambio de color */
-    }
-    
-    .contact-button-form:hover {
-        background: green ;
-        color: #ffffff;
-        box-shadow: 2px 3px 2px  #100d00b4;
-    }
-    
+  
     /* Estilos para la imagen en el formulario */
     .contact-Img{
         height: 50%;

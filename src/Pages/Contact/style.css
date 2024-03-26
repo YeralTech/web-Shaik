@@ -2,12 +2,12 @@
     /* Estilos para el formulario de contacto */
     .Contact-Form {
         width: auto;
-        height: 600px;
+        height: auto;
         align-items: center;
         justify-content: center;
         display: flex;
         color: #003656;
-        padding: 24px;
+        padding: 40px 70px 70px 40px;
     }
     
     /* Estilos para el título del formulario */
@@ -58,8 +58,8 @@
     
     /* Estilos para la imagen en el formulario */
     .contact-Img{
-        height: 120%;
-        width: 120%;
+        height: 80%;
+        width: 80%;
        
         
     }

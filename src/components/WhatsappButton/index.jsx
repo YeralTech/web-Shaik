@@ -2,6 +2,7 @@ import React from "react";
 
 
 
+
 const WhatsApp = () => {
   const sendWhatsapp = () => {
     const phoneNumber = '+50763655512';
@@ -11,8 +12,10 @@ const WhatsApp = () => {
   }
 
  return(
+  <>
   <button onClick={sendWhatsapp} className="contact-button"> WhatsApp</button>
-
+  
+  </>
  )
 }
 
