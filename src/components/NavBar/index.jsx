@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars } from "react-icons/fa";
 import { IoMdCloseCircle } from "react-icons/io";
-import logoShaik from '../../asset/logoShaik-min.png';
+import logoShaik from '../../asset/logoShaik-min-removebg-preview.png';
 import './style.css';
 import { WhatsApp } from '../WhatsappButton';
 
