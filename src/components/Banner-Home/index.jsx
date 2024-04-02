@@ -10,7 +10,7 @@ const Banner = () => {
        
             <div className="banner-Container">
                 <img className='banner-img' src={asesorImg} alt="" />
-                <div className='textBanner-Container'>
+                 <div className='textBanner-Container'>
                     <p className="animated-text">
                         Shaik Asesores Panamá no solicita ningún tipo de pago o póliza. Nuestros servicios son 100% GRATIS.
                     </p>

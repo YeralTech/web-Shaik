@@ -23,9 +23,8 @@ const Main = () => {
   };*/
 
   return (
-    <>
-   
-      <div className="main-container">
+    
+      <section className="main-container">
         <img src={mainImg} alt="dinero" />
 
         <div className="main-container-text">
@@ -38,11 +37,11 @@ const Main = () => {
             Descubre YA si Aplicas!
   </button>*/}
         </div>       
-      </div>
+      </section>
      
-      {/* Pasar propiedades al componente CustomModal */}
-      {/* <CustomModal isOpen={modalIsOpen} closeModal={closeModal} /> */}
-    </>
+    
+     /* <CustomModal isOpen={modalIsOpen} closeModal={closeModal} /> */
+  
   );
 };
 
