@@ -1,24 +1,13 @@
 import React, { useState } from "react"
-import imgMain from '../../asset/dinero-min.png'
-import secondImgMain from '../../asset/ejecutivo-dinero-min.png'
+import  secondImgMain from '../../asset/banner 1.png'
+import imgMain from '../../asset/banner2.png'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"
 
 const MainSection = () => {
     const [changeBanner, setChangeBanner] = useState(false)
 
-    const defaultBanner = {
-        img: imgMain,
-        title: '¡Asesoría Gratuita!',
-        subTitle: 'Solicita tu Préstamo Personal',
-        background: 'bg-primary-primary text-secondary-light'
-    };
-
-    const alternateBanner = {
-        img: secondImgMain,  
-        title: 'Mejora tu APC, Consolida tus deudas',
-        subTitle: '¡Cotiza ya!',
-        background: 'bg-primary-bg text-secondary-light'
-    };
+    const defaultBanner = { img: imgMain }
+    const alternateBanner = { img: secondImgMain };
 
     const bannerData = changeBanner ? alternateBanner : defaultBanner;
 
@@ -27,20 +16,19 @@ const MainSection = () => {
     }
 
     return (
-        <section className={`main-section flex justify-center items-center py-1 w-full px-4 ${bannerData.background} h-auto`}>
-            <IoIosArrowBack className="text-primary-light text-2xl" onClick={toggleChangeBanner} />
-           
-            <div className="main-container flex justify-center items-center max-w-screen-lg w-full text-primary-primary pointer py-1">
-                <img className="w-2/6 h-auto" src={bannerData.img || imgMain} alt="dinero"/>  
-                <div className="main-text-container flex flex-col justify-center items-center w-1/2 text-primary-light">
-                    <h1 className="text-4xl font-bold text-primary-yellow py-4">{bannerData.title}</h1>
-                    <p className="text-xl pt-2 font-semibold">{bannerData.subTitle}</p>
-                    <p className="text-xl py-2 pb-6"></p>
-                    <button className="bg-primary-yellow mt-2 text-primary-background text-md w-60 py-2 px-4 rounded-xl">Contacta un Asesor</button>
-                </div>
+        <section className="main-section flex justify-center items-center w-auto h-auto">         
+            <div className="main-container flex justify-center items-center w-auto text-primary-primary">
+                <IoIosArrowBack 
+                    className=" text-primary-yellow  text-4xl z-40 absolute left-5 cursor-pointer hover:bg-primary-yellow hover:text-primary-primary rounded" 
+                    onClick={toggleChangeBanner} />
+                <img 
+                    className="w-auto h-auto z-0" 
+                    src={bannerData.img || imgMain} alt="dinero"/>  
+                <IoIosArrowForward 
+                    className=" text-primary-yellow text-4xl absolute z-40 ml-60 left-3/4 cursor-pointer hover:bg-primary-yellow hover:text-primary-primary rounded"
+                    onClick={toggleChangeBanner} />
             </div>
-
-            <IoIosArrowForward className="text-primary-light text-2xl" onClick={toggleChangeBanner} />
+          
         </section>
     );
 }

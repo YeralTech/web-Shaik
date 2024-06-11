@@ -35,10 +35,10 @@ const NavBar = () => {
             className='
               hover:bg-primary-hover p-1 
               hover:text-primary-light rounded p-1'>
-            <NavLink to="/aplican" 
+            <NavLink to="/servicios" 
             className='active
             focus:bg-primary-hover focus:text-primary-light rounded p-1'
-            >Aplican</NavLink></li>
+            >Servicios</NavLink></li>
           <li 
             className='
               hover:bg-primary-hover p-1 
