@@ -38,17 +38,4 @@ const ProcessSection = () => {
     );
 }
 
-const BannerHome = () => {
-    return (
-        <section className="flex justify-center items-center w-full px-8 bg-primary-background py-8">
-            <div className="text-justify flex justify-center items-center p-4 max-w-screen-lg w-full">
-                <p className="text-xl text-primary-light">
-                    Contamos con más de 30 años de experiencia. <br />
-                    Shaik Asesores no solicita seguros, pagos en efectivo ni transferencias, solo trabajamos a nivel nacional y trámites de préstamos personales, ya que nuestros servicios de asesoría y gestión son gratis para nuestros clientes.
-                </p>
-            </div>
-        </section>
-    );
-}
-
-export { ProcessSection, BannerHome }
+export { ProcessSection }

@@ -17,15 +17,16 @@ export default {
         disable: '#76d4ff',
         secondary: '#4E8B21',
         bg: '#def2ff',
-        yellow: '#FFD007',
+        
         white: '#fff'
       },
       secondary: {
-        light: '#E4F5D2',
-        background: '#15280B',
-        primary: '#4E8B21',
-        hover: '#3E6D1E',
-        disable: '#6AB32F',
+        light: '#fffbeb',
+        default: '#ffc020',
+        background: '#461a02',
+        primary: '#ffd961',
+        hover: '#f99d07',
+        disable: '#ffe688',
       }
     },
     extend: {
@@ -36,6 +37,14 @@ export default {
         'desktop': '1024px',
         'desktop-lg': '1280px',
       },
+      boxShadow: {
+        'blur-lg': '0 4px 20px rgba(0, 0, 0, 0.8)',
+      },
+    },
+  },
+   variants: {
+    extend: {
+      boxShadow: ['hover'],
     },
   },
   plugins: [],

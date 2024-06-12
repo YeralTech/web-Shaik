@@ -6,7 +6,7 @@ import logoShaik from '../../asset/logoShaik-min-removebg-preview.png';
 const NavBar = () => {
 
   return (
-    <nav className="navBar flex justify-center items-center py-4  w-full px-4 "
+    <nav className="navBar flex justify-center items-center py-2  w-full px-4 shadow-lg mb-2 "
     >
       <div className="navBar-container flex justify-center items-center  p-4 max-w-screen-lg w-full text-primary-primary bg-white pointer"
       >
@@ -55,7 +55,7 @@ const NavBar = () => {
             focus:bg-primary-hover focus:text-primary-light rounded p-1'
             >Preguntas Frecuentes</NavLink></li>
         </ul>
-        <button className='bg-primary-primary text-primary-light py-2 px-4 rounded-md pointer hover:bg-primary-hover ml-4'>Cotiza Ya!</button>
+        <button className='bg-secondary-default text-secondary-background  py-2 px-4 rounded-lg pointer hover:bg-secondary-hover ml-4'>Cotiza Ya!</button>
       </div>
       
    
