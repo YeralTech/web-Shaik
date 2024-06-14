@@ -24,8 +24,8 @@ const ProcessSection = () => {
     ];
 
     return (
-        <section className="flex flex-col justify-center items-center w-full px-8 py-10 h-auto bg-primary-light">
-            <h1 className="text-4xl font-bold text-primary-background py-12 ">Nuestro Proceso</h1>
+        <section className="flex flex-col justify-center items-center w-full px-8 py-8 h-auto bg-primary-background">
+            <h1 className="text-4xl font-bold text-primary-light py-12 ">Nuestro Proceso</h1>
             <div className="process-section-container grid grid-cols-1 gap-6 p-4 max-w-screen-lg w-full md:grid-cols-2 lg:grid-cols-3">
                 {processData.map((data, index) => (
                     <div className="process-container  bg-primary-white text-primary-background p-8 w-full h-auto rounded-lg shadow-md" key={index}>

@@ -2,6 +2,7 @@ import React from 'react';
 
 import { NavLink } from 'react-router-dom';
 import logoShaik from '../../asset/logoShaik-min-removebg-preview.png';
+import { ButtonNavBar } from '../button';
 
 const NavBar = () => {
 
@@ -13,11 +14,11 @@ const NavBar = () => {
         <img className='w-40 mr-6'
           src={logoShaik} 
           alt="Logo de Shaik Asesores" />
-        <ul role='list' className='navbar-list active flex gap-1 text-center'>
+        <ul role='list' className='navbar-list active flex gap-2 text-center'>
           <li 
             className='
               hover:bg-primary-hover p-1 
-              hover:text-primary-light rounded p-1
+              hover:text-primary-background rounded
               '>
               <NavLink to="/" 
               className='active text-center  
@@ -25,7 +26,7 @@ const NavBar = () => {
           <li 
             className='
               hover:bg-primary-hover p-1 
-              hover:text-primary-light rounded p-1
+              hover:text-primary-light rounded 
              '>
             <NavLink to="/nosotros" 
               className='active
@@ -54,8 +55,9 @@ const NavBar = () => {
             className='active
             focus:bg-primary-hover focus:text-primary-light rounded p-1'
             >Preguntas Frecuentes</NavLink></li>
+                  <ButtonNavBar/>
         </ul>
-        <button className='bg-secondary-default text-secondary-background  py-2 px-4 rounded-lg pointer hover:bg-secondary-hover ml-4'>Cotiza Ya!</button>
+
       </div>
       
    
