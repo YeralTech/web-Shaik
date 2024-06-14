@@ -24,7 +24,7 @@ export default {
         light: '#fffbeb',
         default: '#ffc020',
         background: '#461a02',
-        primary: '#ffd961',
+        primary: '#ffd961', //FFE9A3
         hover: '#f99d07',
         disable: '#ffe688',
       }

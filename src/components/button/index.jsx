@@ -13,7 +13,7 @@ const ButtonContact = () => {
 const ButtonNavBar = () => {
     return(
         <>
-            <button className="w-32 bg-secondary-default px-4 py-2 rounded-xl text-sencondary-background text-base cursor-pointer shadow-md hover:bg-secondary-primary">¡Cotiza ya!</button>
+            <button className="animate-bounce  w-32 bg-secondary-default px-4 py-2 rounded-xl text-sencondary-background text-base cursor-pointer shadow-md hover:bg-secondary-primary">¡Cotiza ya!</button>
         </>
         
     )

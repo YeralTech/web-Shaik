@@ -3,6 +3,7 @@ import  secondImgMain from '../../asset/banner 1.png'
 import imgMain from '../../asset/banner2.png'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"
 
+
 const MainSection = () => {
     const [changeBanner, setChangeBanner] = useState(false)
 
@@ -24,12 +25,13 @@ const MainSection = () => {
                 <img 
                     className="w-auto h-auto z-0" 
                     src={bannerData.img || imgMain} alt="dinero"/>  
+                               
                 <IoIosArrowForward 
                     className=" text-primary-yellow text-4xl absolute z-40 ml-60 left-3/4 cursor-pointer hover:bg-primary-yellow hover:text-primary-primary rounded"
                     onClick={toggleChangeBanner} />
-                    
+        
             </div>
-           
+
         </section>
     );
 }
