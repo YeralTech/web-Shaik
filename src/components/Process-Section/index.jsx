@@ -25,10 +25,10 @@ const ProcessSection = () => {
 
     return (
         <section className="flex flex-col justify-center items-center w-full px-8 py-8 h-auto bg-primary-background">
-            <h1 className="text-4xl font-bold text-primary-light py-12 ">Nuestro Proceso</h1>
+            <h1 className="text-4xl font-bold text-secondary-light py-12 ">Nuestro Proceso</h1>
             <div className="process-section-container grid grid-cols-1 gap-6 p-4 max-w-screen-lg w-full md:grid-cols-2 lg:grid-cols-3">
                 {processData.map((data, index) => (
-                    <div className="process-container  bg-primary-white text-primary-background p-8 w-full h-auto rounded-lg shadow-md" key={index}>
+                    <div className="process-container  bg-secondary-light text-primary-background p-8 w-full h-auto rounded-lg shadow-md" key={index}>
                         <h2 className="title flex gap-1 items-center text-2xl font-semibold pb-4"> {data.iconTitle} {data.processTitle}</h2>
                         <p>{data.processDescription}</p>
                     </div>

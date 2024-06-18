@@ -44,11 +44,10 @@ const Service = () => {
             {servicesData.map((data, index) => (
 
             <div 
-                className="flex flex-col  items-center w-auto h-auto bg-primary-white text-primary-background text-lg rounded-md py-2 px-10 pb-10 drop-shadow-xl" key={index}>
-                <img className="rounded-md pt-2" src={data.serviceImg} alt={data.serviceImgAlt} />
-                <h2 
-                    className="text-2xl font-semibold py-2">{data.serviceTitle}</h2>
-                <p className="text-base pb-6">{data.serviceDescription}</p>
+                className="flex flex-col  items-center w-auto h-auto bg-primary-white text-primary-background text-lg rounded-xl rounded-t-md pb-10 drop-shadow-xl " key={index}>
+                <img className="rounded-t-2xl pt-2 w-auto" src={data.serviceImg} alt={data.serviceImgAlt} />
+                <h2 className="text-2xl font-semibold py-2 px-6">{data.serviceTitle}</h2>
+                <p className="text-base pb-8 px-6 py-4">{data.serviceDescription}</p>
                 <ButtonContact/>
             </div>
   ))}

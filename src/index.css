@@ -8,5 +8,28 @@
       border-radius: 8;
       
     }
+    .hover-focus-underline::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: currentColor;
+      transition: width 0.3s;
+      position: absolute;
+      left: 0;
+      
+    }
+    
+    .hover-focus-underline:hover::after,
+    .hover-focus-underline:focus::after,
+    .hover-focus-underline:focus-visible::after,
+    .hover-focus-underline:active::after {
+      width: 100%;
+    }
+    
+    .relative {
+      position: relative;
+    }
+    
   }
   

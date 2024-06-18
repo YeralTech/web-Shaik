@@ -21,12 +21,12 @@ export default {
         white: '#fff'
       },
       secondary: {
-        light: '#fffbeb',
-        default: '#ffc020',
-        background: '#461a02',
-        primary: '#ffd961', //FFE9A3
-        hover: '#f99d07',
-        disable: '#ffe688',
+        light: '#fffaeb',
+        default: '#ffe9a3',
+        background: '#461702',
+        primary: '#FFCE4A',
+        hover: '#f99607',
+        disable: '#fff2c6',
       }
     },
     extend: {

@@ -3,7 +3,7 @@ import privadaIcon from '../../asset/privada-icon.png';
 import govIcon from '../../asset/gov-icon.png';
 import policeIcon from '../../asset/police-icon.png';
 import saludIcon from '../../asset/doctor-icon.png';
-import jubiIcon from '../../asset/jubi-icon.png';
+import jubiIcon from '../../asset/jubi-icon (2).png';
 import teacherIcon from '../../asset/teache-icon.png';
 import acpIcon from '../../asset/acp-icon.png';
 import Modal from '../Modal/index';
@@ -57,17 +57,17 @@ const ApplySection = () => {
 
   return (
     <>
-      <section className="flex flex-col justify-center items-center w-full px-8 py-10 h-auto bg-primary-white">
-        <h1 className="text-4xl font-bold text-primary-background py-12">Quienes Aplican</h1>
-        <div className="flex flex-col tablet:flex-row justify-center items-center gap-6 max-w-screen-lg w-auto h-auto mobile-sm:gap-2">
+      <section className="flex flex-col justify-center items-center w-full px-20 py-20 h-auto bg-primary-white">
+        <h1 className="text-4xl font-bold text-primary-background pb-8">Quienes Aplican</h1>
+        <div className="flex flex-col  w-1/2  gap-2 tablet:flex-row justify-center items-center max-w-screen-lg h-auto gap- mobile-sm:gap-2">
           {applyData.map((data, index) => (
             <div
-              className="flex flex-col pt-4 items-center text-primary-background w-1/2 h-52 text-center rounded-xl cursor-pointer hover:bg-secondary-disable hover:shadow-md"
+              className="flex flex-col py-2 items-center text-primary-background  w-24 h-40 text-center rounded-lg cursor-pointer hover:bg-secondary-light hover:shadow-md"
               key={index}
               onClick={() => toggleViewApplyDetails(data)}
             >
-              <img className="w-auto h-20 pt-2 object-contain drop-shadow-lg shadow-primary-background " src={data.applyIcon} alt={data.applyTitle} />
-              <p className="p-4 pt-4 font-semibold text-lg text-center">{data.applyTitle}</p>
+              <img className="w-auto h-20 pt-2 px-2 object-contain drop-shadow-lg shadow-primary-background " src={data.applyIcon} alt={data.applyTitle} />
+              <p className="px-6 pt-4  font-semibold text-sm w-30 text-center">{data.applyTitle}</p>
             </div>
           ))}
         </div>

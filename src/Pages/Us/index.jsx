@@ -1,12 +1,22 @@
 import React from "react";
 import usImg from '../../asset/Atenncion al cliente-min.png'
 import misionImg from '../../asset/shoot.png'
-import { MainSection } from "../../components/Main-section/Main-section";
+import bannerUs from '../../asset/banner-nosotros.png'
 
 const UsSection = () => {
     return (
         <> 
-        <MainSection/>
+       
+            <div className="main-container flex justify-center items-center w-auto text-primary-primary">
+                <img 
+                    className="w-auto h-auto z-0" 
+                    src={bannerUs} alt="dinero"/>  
+                               
+              
+        
+            </div>
+
+    
                 <section className="flex flex-col justify-center items-center w-auto h-auto px-10 py-20  gap-8">
             <div className="flex  justify-center items-center pt-2 gap-2 max-w-screen-lg w-full bg-primary-background rounded-lg shadow-lg " >
                 
@@ -27,7 +37,7 @@ const UsSection = () => {
             </div>
             </div>
             <div className="flex flex-col justify-center  items-center py-10 gap-2 max-w-screen-lg w-full  rounded text-primary-light bg-primary-background rounded-lg shadow-lg">
-            <h2 className="text-3xl font-semibold text-left px-1 ">  Visión</h2>
+            <h2 className="text-3xl font-semibold text-left px-1 ">Visión</h2>
             <div className="flex w-auto justify-center items-center " >
             
                 <p className="  w-3/4 text-justify px-10 text-lg">

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { NavLink } from 'react-router-dom';
-import logoShaik from '../../asset/logoShaik-min-removebg-preview.png';
+import logoShaik from '../../asset/LOGO2.png';
 import { ButtonNavBar } from '../button';
 
 const NavBar = () => {
@@ -14,46 +14,28 @@ const NavBar = () => {
         <img className='w-40 mr-6'
           src={logoShaik} 
           alt="Logo de Shaik Asesores" />
-        <ul role='list' className='navbar-list active flex gap-2 text-center'>
-          <li 
-            className='
-              hover:bg-primary-hover p-1 
-              hover:text-primary-background rounded
-              '>
+        <ul role='list' className='navbar-list active flex gap-4 text-center'>
+          <li className="text-primary-background relative">
               <NavLink to="/" 
-              className='active text-center  
-              focus:bg-primary-hover focus:text-primary-light rounded p-1'>Home</NavLink></li>
-          <li 
-            className='
-              hover:bg-primary-hover p-1 
-              hover:text-primary-light rounded 
-             '>
+              className='active  hover:text-primary-hover hover-focus-underline   py-2 focus:outline-none focus:text-primary-hover'
+             >Home</NavLink></li>
+          <li className="text-primary-background relative"
+           >
             <NavLink to="/nosotros" 
-              className='active
-              focus:bg-primary-hover focus:text-primary-light rounded p-1
-              '>Nosotros</NavLink></li>
-          <li 
-            className='
-              hover:bg-primary-hover p-1 
-              hover:text-primary-light rounded p-1'>
+              className='active  hover:text-primary-hover hover-focus-underline   py-2 focus:outline-none focus:text-primary-hover'
+              >Nosotros</NavLink></li>
+          <li className="text-primary-background relative">
             <NavLink to="/servicios" 
-            className='active
-            focus:bg-primary-hover focus:text-primary-light rounded p-1'
+          className='active  hover:text-primary-hover hover-focus-underline   py-2 focus:outline-none focus:text-primary-hover'
             >Servicios</NavLink></li>
           <li 
-            className='
-              hover:bg-primary-hover p-1 
-              hover:text-primary-light rounded p-1'>
+            className="text-primary-background relative">
             <NavLink to="/blog" 
-            className='active
-            focus:bg-primary-hover focus:text-primary-light rounded p-1'
+              className='active  hover:text-primary-hover hover-focus-underline   py-2 focus:outline-none focus:text-primary-hover'
             >Blog</NavLink></li>
-          <li className='
-              hover:bg-primary-hover p-1 
-              hover:text-primary-light rounded p-1'>
+          <li className="text-primary-background relative">
             <NavLink to="/preguntas" 
-            className='active
-            focus:bg-primary-hover focus:text-primary-light rounded p-1'
+           className='active  hover:text-primary-hover hover-focus-underline   py-2 focus:outline-none focus:text-primary-hover'
             >Preguntas Frecuentes</NavLink></li>
                   <ButtonNavBar/>
         </ul>
