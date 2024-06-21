@@ -4,6 +4,8 @@ import loanImg from '../../asset/realtor-making-deal-with-customer-office.jpg'
 import ungencyImg from '../../asset/young-cute-family-repairs-room.jpg'
 import bussinesImg from '../../asset/i-m-waiting-delivery-fresh-ingredients.jpg'
 import { ButtonContact } from "../../components/button";
+import { BreadCrumb } from 'primereact/breadcrumb';
+import { IoHome } from "react-icons/io5";
 const Service = () => {
 
     const servicesData = [
@@ -33,8 +35,16 @@ const Service = () => {
         },
    
     ]
-    return(
 
+    const items = [
+        { label: 'Servicios', url: '/' },
+      
+    ];
+
+    const home = { icon: <IoHome />, url: '/' };
+    return(
+        <>
+        <BreadCrumb model={items} home={home} className=" flex text-primary-primary px-10 my-6 gap-4 " />
         <section 
             className="flex flex-col justify-center items-center w-full px-20 py-20 h-auto ">
              <h1 className="text-4xl font-bold text-primary-background pb-6">Servicios</h1>
@@ -55,7 +65,9 @@ const Service = () => {
         </div>
         
         </section>
-    )
-}
+
+        </>
+      )
+    }      
 
 export { Service }

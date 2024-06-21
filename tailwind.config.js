@@ -17,7 +17,7 @@ export default {
         disable: '#76d4ff',
         secondary: '#4E8B21',
         bg: '#def2ff',
-        
+        error: '#ff9595',
         white: '#fff'
       },
       secondary: {
