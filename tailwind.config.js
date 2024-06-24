@@ -31,6 +31,7 @@ export default {
     },
     extend: {
       screens: {
+
         'mobile-sm': '320px',
         'mobile-lg': '480px',
         'tablet': '768px',

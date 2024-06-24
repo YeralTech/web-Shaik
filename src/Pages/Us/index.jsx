@@ -38,7 +38,7 @@ const UsSection = () => {
                     src={bannerUs} alt="dinero"/>  
             </div> */}
 
-            <BreadCrumb model={items} home={home} className=" flex text-primary-primary px-10 my-6 gap-4 " />
+            <BreadCrumb model={items} home={home} className="flex text-primary-primary px-8  my-6  w-1/2 h-8 justify-center" />
             <section className="flex flex-col justify-center items-center w-auto h-auto px-10 py-10  gap-10">
                 <h1 className="text-4xl font-bold text-primary-background">Nosotros</h1>
                 {usData.map((data, index) => (

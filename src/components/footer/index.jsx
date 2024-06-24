@@ -9,7 +9,7 @@ const Footer = () => {
         <>
          <section className=" flex w-full  justify-around items-center bg-primary-background text-primary-light py-6 pt-10"> 
             <div className=" flex flex-col max-w-screen-xl  h-auto w-auto   text-primary-light  justify-center items-center">
-                <img className="w-40" src={logoFooter} alt="logoShaik asesores en blanco" />
+                <img className="w-60" src={logoFooter} alt="logoShaik asesores en blanco" />
                 <p className="text-sm ">Panamá, Ciudad de Panamá</p>
             </div>
             <div className="flex flex-col w-auto py-2 justify-center items-center">

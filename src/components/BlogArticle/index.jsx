@@ -12,7 +12,7 @@ const BlogArticle = () => {
     }
 
     const items = [
-        { label: 'Blog', url: '/' },
+        { label: 'Blog', url: '/blog' },
         { label: blog.titleBlog, url: '#' }
     ];
 

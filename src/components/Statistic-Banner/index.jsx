@@ -10,8 +10,8 @@ const StatisticBanner = () => {
 
 
     return(
-        <section className="w-auto flex flex-col justify-center items-center bg-secondary-default ">
-            <div className="w-auto flex  justify-center  items-center py-10 gap-2">
+        <section className="statistic-banner-section  w-auto flex flex-col justify-center items-center bg-secondary-default ">
+            <div className="w-auto flex desktop:flex-row justify-center  items-center py-10 gap-2 mobile-sm:flex-col mobile-sm:gap-6">
                 {statisticData.map((data, index) => (
                     <div className="w-auto text-primary-background  flex flex-col justify-center items-center text-center custom-borde " key={index} >
                     <h1 className="text-4xl font-semibold">+{data.statistic}</h1>

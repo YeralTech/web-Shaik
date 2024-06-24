@@ -39,7 +39,7 @@ const Questions  = () => {
         <>
             <BreadCrumb model={items} home={home} className="flex text-primary-primary px-8  my-6  w-2/4 h-8 justify-center" />
             <section className="question-section flex flex-col justify-center items-center w-auto h-auto px-10 pb-20 gap-6">
-              <div className="question-container flex flex-col py-10 shadow-xl px-40">
+              <div className="question-container flex flex-col py-10 px-40">
                     <div className="title-container bg-secondary-primary  w-auto px-10 py-4 text-center rounded mb-10 ">
                         <h1 className="text-3xl text-primary-primary font-semibold">Preguntas Frecuentes</h1>
                     </div> 

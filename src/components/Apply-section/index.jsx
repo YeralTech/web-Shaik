@@ -59,7 +59,7 @@ const ApplySection = () => {
     <>
       <section className="flex flex-col justify-center items-center w-full px-20 py-20 h-auto bg-primary-white">
         <h1 className="text-4xl font-bold text-primary-background pb-8">Quienes Aplican</h1>
-        <div className="flex flex-wrap w-1/2  gap-2 justify-center items-center max-w-screen-lg h-auto  ">
+        <div className="flex w-1/2  gap-2 justify-center items-center max-w-screen-lg h-auto  ">
           {applyData.map((data, index) => (
             <div
               className="flex flex-col py-2 items-center text-primary-background  w-24 h-40 text-center rounded-lg cursor-pointer hover:bg-secondary-light hover:shadow-md"

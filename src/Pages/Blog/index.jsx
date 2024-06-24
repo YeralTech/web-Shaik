@@ -72,7 +72,7 @@ const Blog = () => {
 
     return (
         <>
-            <BreadCrumb model={items} home={home} className="flex text-primary-primary px-10 my-6 gap-4 h-6" />
+            <BreadCrumb model={items} home={home} className="flex text-primary-primary px-8  my-6  w-1/2 h-8 justify-center" />
             <section className="w-full flex flex-col justify-center items-center py-10 bg-gray-100">
                 <h1 className="text-4xl font-bold text-primary-primary py-2">Blog Financiero</h1>
                 <div className="flex flex-row flex-wrap gap-8 max-w-screen-lg justify-center items-center">
