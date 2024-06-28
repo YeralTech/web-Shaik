@@ -10,10 +10,10 @@ const StatisticBanner = () => {
 
 
     return(
-        <section className="statistic-banner-section  w-auto flex flex-col justify-center items-center bg-secondary-default ">
-            <div className="w-auto flex desktop:flex-row justify-center  items-center py-10 gap-2 mobile-sm:flex-col mobile-sm:gap-6">
+        <section id="statistic-banner-section " className=" w-auto flex flex-col justify-center items-center bg-secondary-default ">
+            <div id="statistic-banner-container" className="w-auto flex desktop:flex-row justify-center  items-center py-10 gap-2 mobile-sm:flex-col mobile-sm:gap-6">
                 {statisticData.map((data, index) => (
-                    <div className="w-auto text-primary-primary  flex flex-col justify-center items-center text-center custom-borde " key={index} >
+                    <div id="statistic-banner-numbers" className="w-auto text-primary-primary  flex flex-col justify-center items-center text-center custom-borde " key={index} >
                     <h1 className="text-4xl font-semibold">+{data.statistic}</h1>
                     <p className=" text-lg px-6"> {data.statisticText}</p>
                     </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import evaluationImg from '../../asset/evaluacion-icon.png'
 import invoiceImg from '../../asset/cotizacion-icon.png'
 import moneyImg from '../../asset/desembolso-icon.png'
@@ -28,17 +28,17 @@ const ProcessSection = () => {
     ];
 
     return (
-        <section className="flex flex-col justify-center items-center w-full px-8 py-20 h-auto bg-primary-hover">
+        <section id="process-section" className="flex flex-col justify-center items-center w-full px-8 py-20 h-auto bg-primary-hover">
                      
-            <h1 className="text-4xl font-bold text-secondary-light pb-10 ">Nuestro Proceso</h1>
-            <div className="process-section-container grid grid-cols-1 gap-8 p-4 max-w-screen-lg w-full md:grid-cols-2 lg:grid-cols-3  ">
+            <h1 id="process-title" className="text-4xl font-bold text-secondary-light pb-10 ">Nuestro Proceso</h1>
+            <div id="process-container" className="process-section-container grid grid-cols-1 gap-8 p-4 max-w-screen-lg w-full md:grid-cols-2 lg:grid-cols-3  ">
                
                 {processData.map((data, index) => (
-                    <div className="process-container flex flex-col justify-center  items-center bg-primary-white text-primary-primary px-8 py-8 w-full h-auto rounded-lg shadow-lg shadow-primary-primary border-t-8 divide-solid border-secondary-hover" key={index}>
+                    <div id="process-card" className="process-container flex flex-col justify-center  items-center bg-primary-white text-primary-primary px-8 py-8 w-full h-auto rounded-lg shadow-lg shadow-primary-primary border-t-8 divide-solid border-secondary-hover" key={index}>
 
-                        <img  className="drop-shadow-md w-40" src={data.iconTitle} alt="" />
+                        <img id="process-img" className="drop-shadow-md w-40" src={data.iconTitle} alt="" />
                         <h2 className="title text-2xl font-bold py-4 "> {data.processTitle}</h2>
-                        <p>{data.processDescription}</p>
+                        <p id="process-description">{data.processDescription}</p>
                     </div>
                 ))}
             </div>

@@ -9,7 +9,7 @@ const ButtonContact = () => {
 
     return(
         <>
-            <button className="w-48 bg-secondary-primary px-4 py-2 rounded-xl text-primary-background text-base cursor-pointer shadow-md hover:bg-secondary-hover" onClick={sendWhatsapp}>Contacta un Asesor</button>
+            <button id="whastapp-button" className="w-auto bg-secondary-primary px-8 py-2 rounded-xl text-primary-background text-base cursor-pointer shadow-md hover:bg-secondary-hover" onClick={sendWhatsapp}>¡Aplica ya!</button>
         </>
 
     )

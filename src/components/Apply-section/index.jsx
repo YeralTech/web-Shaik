@@ -6,7 +6,7 @@ import saludIcon from '../../asset/doctor-icon.png';
 import jubiIcon from '../../asset/jubi-icon (2).png';
 import teacherIcon from '../../asset/teache-icon.png';
 import acpIcon from '../../asset/acp-icon.png';
-import Modal from './Modal/index';
+import Modal from '../Modal'
 
 
 const ApplySection = () => {
@@ -65,18 +65,18 @@ const ApplySection = () => {
 
   return (
     <>
-      <section className="flex flex-col justify-center items-center w-full px-20 py-20 h-auto bg-primary-white">
-        <h1 className="text-4xl font-bold text-primary-primary pb-8 text-center">Quienes Aplican</h1>
-        <div className=" flex gap-2 pb-6 w-auto justify-center items-center max-w-screen-lg h-auto flex-wrap">
+      <section id="apply-section" className="flex flex-col justify-center items-center w-full px-20 py-20 h-auto bg-primary-white">
+        <h1 id="apply-title" className="text-4xl font-bold text-primary-primary pb-8 text-center">Quienes Aplican</h1>
+        <div id="apply-container" className=" flex gap-2 pb-6 w-auto justify-center items-center max-w-screen-lg h-auto flex-wrap">
           {applyData.map((data, index) => (
-            <div
+            <div id="apply-container-icon"
               className="flex flex-col py-2 items-center text-primary-background w-32 h-52 text-center rounded-lg cursor-pointer hover:bg-primary-bg hover:shadow-lg hover:h-52"
               key={index}
               onClick={() => toggleViewApplyDetails(data)}
             >
-              <img className="w-auto h-24 pt-2 px-2 object-contain drop-shadow-xl shadow-primary-background " src={data.applyIcon} alt={data.applyTitle} />
+              <img id="icon-img" className="w-auto h-24 pt-2 px-2 object-contain drop-shadow-xl shadow-primary-background " src={data.applyIcon} alt={data.applyTitle} />
               <p className="px-6 pt-4 text-primary-primary font-semibold text-lg w-30 text-center">{data.applyTitle}</p>
-              <p></p>
+  
             </div>
           ))}
     
@@ -84,14 +84,14 @@ const ApplySection = () => {
         <Modal isOpen={modalIsOpen} onClose={() => setModalOpen(false)}>
           {selectedData && (
             <>
-            <div className="modal-container flex flex-col justify-center items-center py-10 h-auto ">
-            <img className="w-auto h-24 pt-2 z-50 absolute top-2 object-contain" src={selectedData.applyIcon} alt={selectedData.applyTitle} />
-            <div className="bg-primary-light px-10 py-10 rounded text-center shadow-lg">
+            <div id="modal-container " className="flex flex-col justify-center items-center py-10 h-auto ">
+            <img id="modal-img" className="w-auto h-24 pt-2 z-50 absolute top-2 object-contain" src={selectedData.applyIcon} alt={selectedData.applyTitle} />
+            <div id="modal-container-text" className="bg-primary-light px-10 py-10 rounded text-center shadow-lg">
             <h2 className="text-2xl font-bold text-primary-primary pt-6">{selectedData.applyTitle}</h2>
               <p className="text-primary-primary text-base pt-1 px-">{selectedData.description}.</p>
       
      
-              <div className="text-base mt-8  px-2 py-1 rounded bg-primary-primary ">
+              <div id="modal-container-requisites" className="text-base mt-8  px-2 py-1 rounded bg-primary-primary ">
               <p className="text-primary-light  px-4 py-1 rounded-md"> <strong> Requisitos:</strong> {selectedData.requisitos}</p> 
             </div>
              

@@ -45,19 +45,19 @@ const Service = () => {
     return(
         <>
         <BreadCrumb model={items} home={home} className="flex text-primary-primary px-8  my-6  w-1/2 h-8 justify-center" />
-        <section 
+        <section id="service-section"
             className="flex flex-col justify-center items-center w-full px-20 py-20 h-auto ">
-             <h1 className="text-4xl font-bold text-primary-background pb-6">Servicios</h1>
-            <div 
+             <h1 id="service-title" className="text-4xl font-bold text-primary-background pb-6">Servicios</h1>
+            <div id="service-container"
                 className="grid grid-cols justify-center  w-auto h-auto  gap-6 p-4 max-w-screen-lg w-full md:grid-cols-2 lg:grid-cols-3">
            
             {servicesData.map((data, index) => (
 
-            <div 
+            <div  id="service-container-card"
                 className="flex flex-col  items-center w-auto h-auto bg-primary-white text-primary-background text-lg rounded-xl rounded-t-md pb-10 drop-shadow-xl " key={index}>
-                <img className="rounded-t-2xl pt-2 w-auto" src={data.serviceImg} alt={data.serviceImgAlt} />
-                <h2 className="text-2xl font-semibold py-2 px-6">{data.serviceTitle}</h2>
-                <p className="text-base pb-8 px-6 py-4">{data.serviceDescription}</p>
+                <img id="service-img" className="rounded-t-2xl pt-2 w-auto" src={data.serviceImg} alt={data.serviceImgAlt} />
+                <h2 id="service-subtitle" className="text-2xl font-semibold py-2 px-6">{data.serviceTitle}</h2>
+                <p id="service-description" className="text-base pb-8 px-6 py-4">{data.serviceDescription}</p>
                 <ButtonContact/>
             </div>
   ))}
