@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities {
+
     .custom-border {
       @apply border-r-2 border-primary-primary;
       height: 60px; 

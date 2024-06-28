@@ -7,6 +7,7 @@ import imgMainTable from '../../asset/banner-tablet.png';
 import imgSecondMobile from '../../asset/banner-mobile2.png';
 import imgSecondTable from '../../asset/banner-mobile2.png';
 
+
 const MainSection = () => {
     const [changeBanner, setChangeBanner] = useState(false);
 
@@ -61,7 +62,9 @@ const MainSection = () => {
                     desktop-lg:mr-10 desktop:mr-8 mobile-sm: mr-1" 
                     onClick={toggleChangeBanner} 
                 />
+                
             </div>
+        
         </section>
     );
 }

@@ -1,7 +1,9 @@
 import React from "react";
 import { BreadCrumb } from 'primereact/breadcrumb';
 import { useNavigate } from 'react-router-dom';
-import imgSaveMoney from '../../asset/i-m-waiting-delivery-fresh-ingredients.jpg';
+import imgSaveMoney from '../../asset/expressive-pretty-woman-posing.jpg';
+import imgInvestment from '../../asset/investment-currency-forex-economy-trade-concept.jpg'
+import imgCredit from '../../asset/creditscore.jpg'
 import { IoHome } from "react-icons/io5";
 
 const Blog = () => {
@@ -29,7 +31,7 @@ const Blog = () => {
         `
         },
         {
-            imgBlog: imgSaveMoney,
+            imgBlog: imgInvestment,
             titleBlog: 'Cómo invertir inteligentemente',
             blogDescriptionPrev: 'Invertir puede parecer complicado, pero con los conocimientos adecuados puedes maximizar tus ganancias.',
             blogDescription: `<p>
@@ -48,7 +50,7 @@ const Blog = () => {
             </p>`
         },
         {
-            imgBlog: imgSaveMoney,
+            imgBlog: imgCredit,
             titleBlog: 'Cómo Mantener una Buena Calificación de Crédito (APC)',
             blogDescriptionPrev: 'ener una buena calificación de crédito (APC) es crucial para acceder a préstamos con tasas de interés favorables y mejores condiciones financieras. ',
             blogDescription: `Tener una buena calificación de crédito (APC) es crucial para acceder a préstamos con tasas de interés favorables y mejores condiciones financieras. <br>
@@ -75,10 +77,10 @@ const Blog = () => {
             <BreadCrumb model={items} home={home} className="flex text-primary-primary px-8  my-6  w-1/2 h-8 justify-center" />
             <section className="w-full flex flex-col justify-center items-center py-10 bg-gray-100">
                 <h1 className="text-4xl font-bold text-primary-primary py-2">Blog Financiero</h1>
-                <div className="flex flex-row flex-wrap gap-8 max-w-screen-lg justify-center items-center">
+                <div className="flex flex-row flex-wrap gap-8 max-w-screen-lg justify-center py-8">
                     {dataBlog.map((data, index) => (
-                        <div className="w-full max-w-xs shadow-lg px-8 py-8 text-primary-primary rounded-lg bg-blue-100" key={index}>
-                            <img className="w-full rounded" src={data.imgBlog || imgSaveMoney} alt="" />
+                        <div className="w-full max-w-xs  shadow-lg  border-t-8 divide-solid border-primary-hover shadow-lg px-8 py-8 text-primary-primary rounded-lg bg-blue-100" key={index}>
+                            <img className="w-full rounded h-60" src={data.imgBlog || imgSaveMoney} alt="" />
                             <h2 className="text-xl font-semibold py-2">{data.titleBlog}</h2>
                             <p className="w-auto pb-8 text-base">{data.blogDescriptionPrev}</p>
                             <button 

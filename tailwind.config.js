@@ -6,14 +6,14 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'sans': ['ui-sans-serif', 'system-ui'],
+      'sans': ['Helvetica', 'Arial', 'sans-serif'],
     },
     colors: {
       primary: {
         light: '#EFF9FF', 
         background: '#052F4C',
         primary: '#074D77',
-        hover: '#006AA9',
+        hover: '#055887',
         disable: '#76d4ff',
         secondary: '#4E8B21',
         bg: '#def2ff',
