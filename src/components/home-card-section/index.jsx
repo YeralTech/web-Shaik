@@ -1,5 +1,5 @@
 import React from "react";
-import executiveImg from '../../asset/happy-caucasian-woman-shaking-hands-with-latin-man-during-business-meeting-with-lawyer-manager-hiring-beautiful-professional-woman-new-job-min.jpg'
+import executiveImg from '../../asset/happy-caucasian-woman-shaking-hands-with-latin-man-during-business-meeting-with-lawyer-manager-hiring-beautiful-professional-woman-new-job-min-min.jpg'
 import { ButtonContact } from "../button";
 
 const FinancialCompaniesSection = () => {

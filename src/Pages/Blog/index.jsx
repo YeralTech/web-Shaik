@@ -1,9 +1,9 @@
 import React from "react";
 import { BreadCrumb } from 'primereact/breadcrumb';
 import { useNavigate } from 'react-router-dom';
-import imgSaveMoney from '../../asset/expressive-pretty-woman-posing.jpg';
-import imgInvestment from '../../asset/investment-currency-forex-economy-trade-concept.jpg'
-import imgCredit from '../../asset/creditscore.jpg'
+import imgSaveMoney from '../../asset/expressive-pretty-woman-posing-min.jpg';
+import imgInvestment from '../../asset/investment-currency-forex-economy-trade-concept-min.jpg'
+import imgCredit from '../../asset/creditscore-min.jpg'
 import { IoHome } from "react-icons/io5";
 
 const Blog = () => {

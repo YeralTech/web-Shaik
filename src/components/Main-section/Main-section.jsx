@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import imgMain from '../../asset/banner 1.png';
-import secondImgMain from '../../asset/banner2.png';
+import imgMain from '../../asset/banner 1-min.png';
+import secondImgMain from '../../asset/banner2-min.png';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import imgMainMobile from '../../asset/banner-mobile.png';
-import imgMainTable from '../../asset/banner-tablet.png';
-import imgSecondMobile from '../../asset/banner-mobile2.png';
-import imgSecondTable from '../../asset/banner-mobile2.png';
+import imgMainMobile from '../../asset/banner-mobile-min.png';
+import imgMainTable from '../../asset/banner-tablet-min.png';
+import imgSecondMobile from '../../asset/banner-mobile2-min.png';
+import imgSecondTable from '../../asset/banner-mobile2-min.png';
 
 
 const MainSection = () => {
@@ -29,7 +29,7 @@ const MainSection = () => {
     };
 
     return (
-        <section className="main-section flex justify-center items-center w-full h-auto">
+        <section id="main-section" className=" flex justify-center items-center w-full h-auto">
             <div className="main-container relative flex justify-center items-center w-full text-primary-primary">
                 <IoIosArrowBack 
                     className="text-secondary-primary text-2xl ml-2 z-50 absolute top-1/2 left-0 cursor-pointer 

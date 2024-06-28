@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import formImg from '../../asset/portrait-young-businesswoman-talking-telephone-looking-camera.jpg';
+import formImg from '../../asset/portrait-young-businesswoman-talking-telephone-looking-camera-min.jpg';
 import axios from 'axios';
 import Modal from "../Modal";
 import { FaEnvelopeCircleCheck } from "react-icons/fa6";

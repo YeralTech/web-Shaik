@@ -13,8 +13,8 @@ const Footer = () => {
 
     return(
         <>
-         <footer id="footer" className=" flex w-full  justify-around items-center bg-primary-hover text-primary-light py-6 pt-10 font-sans"> 
-            <div id="footer-logo-container" className=" flex flex-col max-w-screen-xl  h-auto w-auto   text-primary-light  justify-center items-center ">
+         <footer className=" flex w-full  justify-around items-center bg-primary-hover text-primary-light py-6 pt-10 font-sans"> 
+            <div className=" flex flex-col max-w-screen-xl  h-auto w-auto   text-primary-light  justify-center items-center ">
                 <img className="w-60" src={logoFooter} alt="logoShaik asesores en blanco" />
                 <p className="text-sm ">Panamá, Ciudad de Panamá</p>
             </div>
@@ -26,12 +26,12 @@ const Footer = () => {
             </div>
 
             </div>
-    
+        </footer>
             <div className="py-2 flex flex-col py-4 items-center  w-auto h-auto bg-primary-hover text-primary-light justify-center border-t border-solid border-primary-light"> 
                 <p className="text-base px-20 text-center">Copyright © 2024 Shaik Asesores. Todos los derechos reservados.</p>
                 <p className="text-xs py-1">Diseñada y Desarrollada por: Yeraldin Espinosa </p>
            </div>
-           </footer>
+           
         </>
        
        

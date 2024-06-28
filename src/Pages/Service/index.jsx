@@ -1,8 +1,8 @@
 import React from "react";
-import debstImg from '../../asset/man-saving-money-energy-crisis.jpg'
-import loanImg from '../../asset/realtor-making-deal-with-customer-office.jpg'
-import ungencyImg from '../../asset/young-cute-family-repairs-room.jpg'
-import bussinesImg from '../../asset/i-m-waiting-delivery-fresh-ingredients.jpg'
+import debstImg from '../../asset/man-saving-money-energy-crisis-min.jpg'
+import loanImg from '../../asset/realtor-making-deal-with-customer-office-min.jpg'
+import ungencyImg from '../../asset/young-cute-family-repairs-room-min.jpg'
+import bussinesImg from '../../asset/i-m-waiting-delivery-fresh-ingredients-min.jpg'
 import { ButtonContact } from "../../components/button";
 import { BreadCrumb } from 'primereact/breadcrumb';
 import { IoHome } from "react-icons/io5";

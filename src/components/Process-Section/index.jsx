@@ -1,7 +1,7 @@
 import React from "react"
-import evaluationImg from '../../asset/evaluacion-icon.png'
-import invoiceImg from '../../asset/cotizacion-icon.png'
-import moneyImg from '../../asset/desembolso-icon.png'
+import evaluationImg from '../../asset/evaluacion-icon-min.png'
+import invoiceImg from '../../asset/cotizacion-icon-min.png'
+import moneyImg from '../../asset/desembolso-icon-min.png'
 
 
 

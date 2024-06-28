@@ -1,9 +1,9 @@
 import React from "react";
 import { BreadCrumb } from 'primereact/breadcrumb';
 import usImg from '../../asset/Atenncion al cliente-min.png'
-import misionImg from '../../asset/hands-holding-puzzle-business-problem-solving-concept.jpg'
-import visionImg from '../../asset/hands-working-laptop-network-graphic-overlay.jpg'
-//import bannerUs from '../../asset/banner-nosotros.png'
+import misionImg from '../../asset/hands-holding-puzzle-business-problem-solving-concept-min.jpg'
+import visionImg from '../../asset/hands-working-laptop-network-graphic-overlay-min.jpg'
+
 import { IoHome } from "react-icons/io5";
 
 const UsSection = () => {

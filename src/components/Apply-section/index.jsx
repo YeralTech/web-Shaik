@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import privadaIcon from '../../asset/privada-icon.png';
-import govIcon from '../../asset/gov-icon.png';
-import policeIcon from '../../asset/police-icon.png';
-import saludIcon from '../../asset/doctor-icon.png';
-import jubiIcon from '../../asset/jubi-icon (2).png';
-import teacherIcon from '../../asset/teache-icon.png';
-import acpIcon from '../../asset/acp-icon.png';
+import privadaIcon from '../../asset/privada-icon-min.png';
+import govIcon from '../../asset/gov-icon-min.png';
+import policeIcon from '../../asset/police-icon-min.png';
+import saludIcon from '../../asset/doctor-icon-min.png';
+import jubiIcon from '../../asset/jubi-icon (2)-min.png';
+import teacherIcon from '../../asset/teache-icon-min.png';
+import acpIcon from '../../asset/acp-icon-min.png';
 import Modal from '../Modal'
 
 
