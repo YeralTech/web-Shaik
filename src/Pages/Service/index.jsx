@@ -44,9 +44,9 @@ const Service = () => {
     const home = { icon: <IoHome />, url: '/' };
     return(
         <>
-        <BreadCrumb model={items} home={home} className="flex text-primary-primary px-8  my-6  w-1/2 h-8 justify-center" />
+        <BreadCrumb model={items} home={home} className="flex text-primary-primary px-8 my-6  w-1/2 h-8 justify-center" />
         <section id="service-section"
-            className="flex flex-col justify-center items-center w-full px-20 py-20 h-auto ">
+            className="flex flex-col justify-center items-center w-full px-20 py-6 h-auto ">
              <h1 id="service-title" className="text-4xl font-bold text-primary-background pb-6">Servicios</h1>
             <div id="service-container"
                 className="grid grid-cols justify-center  w-auto h-auto  gap-6 p-4 max-w-screen-lg w-full md:grid-cols-2 lg:grid-cols-3">
