@@ -66,7 +66,7 @@ const ApplySection = () => {
   return (
     <>
       <section id="apply-section" className="flex flex-col justify-center items-center w-full px-20 py-20 h-auto bg-primary-white">
-        <h1 id="apply-title" className="text-4xl font-bold text-primary-primary pb-8 text-center">Quienes Aplican</h1>
+        <h1 id="apply-title" className="text-4xl font-bold text-primary-primary pb-8 text-center">Aplican</h1>
         <div id="apply-container" className=" flex gap-2 pb-6 w-auto justify-center items-center max-w-screen-lg h-auto flex-wrap">
           {applyData.map((data, index) => (
             <div id="apply-container-icon"
