@@ -29,7 +29,7 @@ const Footer = () => {
         </footer>
             <div className="py-2 flex flex-col py-4 items-center  w-auto h-auto bg-primary-hover text-primary-light justify-center border-t border-solid border-primary-light"> 
                 <p className="text-base px-20 text-center">Copyright © 2024 Shaik Asesores. Todos los derechos reservados.</p>
-                <p className="text-xs py-1">Diseñada y Desarrollada por: Yeraldin Espinosa </p>
+                <p className="text-xs py-1"></p>
            </div>
            
         </>
